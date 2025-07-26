@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors & IDEs
+.vscode/
+.devcontainer/
+.idea/
+
+# Env & logs
+.env
+*.log
