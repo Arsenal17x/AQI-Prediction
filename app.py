@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Air Quality Index Prediction", layout="wide", page_icon="🌍")
 # Load the model
-model = joblib.load('RFregressor.joblib')
+model = joblib.load('XGregressor.joblib')
 
 st.markdown("""
     <style>
